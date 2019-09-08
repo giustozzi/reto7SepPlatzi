@@ -47,7 +47,6 @@
 .header__menu li {
   margin: 10px 0;
 }
-
 .header__menu li a {
   text-decoration: none;
   font-size: 12px;
@@ -65,12 +64,10 @@
   align-items: center;
   cursor: pointer;
 }
-
 .header__menu--profile img {
   margin-right: 4px;
   height: 36px;
 }
-
 .header__menu--profile p {
   margin: 0;
   color: #ffffff;
@@ -112,12 +109,12 @@
   flex-direction: column;
   padding: 24px;
   min-height: calc(100vh - 200px);
-  color: #fff;
+  color: #ffffff;
 }
 
 .login__container {
   background-color: rgba(255, 255, 255, 0.1);
-  border: 2px solid #fff;
+  border: 2px solid #ffffff;
   padding: 48px;
   border-radius: 30px;
   min-height: 550px;
@@ -131,7 +128,6 @@
   display: flex;
   flex-direction: column;
 }
-
 .login__container--form label {
   font-size: 13px;
 }
@@ -143,9 +139,8 @@
   justify-content: space-between;
   padding-bottom: 10px;
 }
-
 .login__container--remember-me a {
-  color: white;
+  color: #ffffff;
   font-size: 13px;
   text-decoration: none;
 }
@@ -173,7 +168,6 @@
 .login__container--register {
   font-size: 14px;
 }
-
 .login__container--register a {
   font-size: 16px;
   font-weight: bold;
@@ -210,7 +204,7 @@
   border-radius: 25px;
   border: 0;
   cursor: pointer;
-  color: #fff;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
@@ -326,7 +320,6 @@
   height: 100px;
   width: 100%;
 }
-
 .footer a {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
