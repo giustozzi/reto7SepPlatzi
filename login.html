@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="styles.css">
 <body class="body">
     <header class="header">
-    <img class="header__img" src="https://raw.githubusercontent.com/platzi/PlatziVideo/feature/react/src/assets/static/logo-platzi-video-BW2.png" alt="Platzi Vide">
+    <img tabindex="0" class="header__img" src="https://raw.githubusercontent.com/platzi/PlatziVideo/feature/react/src/assets/static/logo-platzi-video-BW2.png" alt="Platzi Vide">
         <div class="header__menu">
             <div class="header__menu--profile">
                 <img src="./assets/profile-icon.png" alt="Mi Perfil">
@@ -26,16 +26,16 @@
     </header>
     <section class="login">
         <section class="login__container">
-            <h2>Inicia Sesión</h2>
+            <h2 tabindex="0">Inicia Sesión</h2>
             <form class="login__container--form">
-                <input type="text" class="input" placeholder="Correo electrónico">
-                <input type="password" class="input" placeholder="Contraseña">
+                <input aria-label="Correo" type="text" class="input" placeholder="Correo electrónico">
+                <input aria-label="Contraseña" type="password" class="input" placeholder="Contraseña">
                 <button class="button">Iniciar sesión</button>
                 <div class="login__container--remember-me">
                     <label>
-                        <input type="checkbox" id="cbox1" value="checkbox">Recuerdame
+                        <input aria-label="Recuerdame" type="checkbox" id="cbox1" value="checkbox">Recuerdame
                     </label>
-                    <a href="/">Olvidé mi contraseña</a>
+                    <a aria-label="Olvide mi contraseña" href="/">Olvidé mi contraseña</a>
                 </div>
             </form>
             <section class="login__container--social-media">
